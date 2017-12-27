@@ -1,0 +1,536 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  background-color: #323136;
+  background-image: url('https://i1.wp.com/colourlovers.com.s3.amazonaws.com/images/patterns/2388/2388654.png');
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+#wrapper{
+  width: 1280px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ffffff;	
+}
+
+.banner img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+nav{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 30px;
+}
+
+nav ul li a{
+    color: #686868;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #282828;
+}
+
+/*search box*/
+.screen-reader-text{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 0 auto;
+  color: #F5F5F5;
+}
+
+input[type=text] {
+  width: 215px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('http://i.imgur.com/a4SdpXV.png');
+  background-size: 25px 25px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 16px 20px 12px 40px;
+}
+
+.current{
+    color: #282828;
+}
+
+.padding-filler2{
+  padding-top: 35px;
+}
+
+.padding-filler3{
+  padding-top: 6px;
+}
+
+#post_img{
+  width: 70%;
+}
+
+.title h1{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #6b6b6b;
+  color: #ffffff;
+  font-size: 250%;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  width: 1280px;
+  height: auto;
+}
+
+.title h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 120%;
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  font-weight: 400;
+}
+
+.title h2 a:hover{
+  text-decoration: underline;
+}
+
+.index-left{
+  width: 50%;
+  float: left;
+  height: auto;
+  text-align: left;
+}
+
+.index-left h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 120%;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  font-weight: 400;
+}
+
+.index-left h2 a{
+  color: #000000;
+}
+
+.index-left h2 a:hover{
+  text-decoration: underline;
+}
+
+.index-right{
+  width: 50%;
+  float: right;
+  height: auto;
+  text-align: right;
+}
+
+.index-right h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 120%;
+  display: inline-block;
+  width: 100%;
+  font-weight: 400;
+}
+
+.index-right h2 a{
+  color: #000000;
+}
+
+.index-right h2 a:hover{
+  text-decoration: underline;
+}
+
+.title a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.title a:hover{
+  color: #161616;
+}
+
+.title img{
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.title p{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 120%;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.title p a{
+  color: #000000;
+}
+
+.title p a:hover{
+  color: #686868;
+}
+
+/*CSS for control the styling of index anime*/
+.page-list{
+
+}
+
+.page-list-ext-image{
+  display: block;
+  width: 400px;
+  margin: auto;
+  padding-left: 300px;
+}
+
+.page-list-ext-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 200%;
+  text-align: center;
+  padding-right: 300px;
+}
+
+.page-list-ext-title a{
+  color: #686868;
+  text-decoration: none;
+}
+
+.page-list-ext-title a:hover{
+  color: #282828;
+}
+
+.page-list-ext-item-content{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+  text-align: center;
+  padding-right: 300px;
+}
+
+/*Topic CSS*/
+.padding-filler1{
+  padding-top: 50px;
+}
+
+.topic_image{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+#portrait{
+  width: 60%;
+  height: auto;
+}
+
+#landscape{
+  width: 100%;
+  height: auto;
+}
+
+.topic_image h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 200%;
+}
+
+.topic_image h2{
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.class1{
+  width: 40%;
+  float: left;
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.class2{
+  width: 60%;
+  float: left;
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.class3 {
+  width: 50%;
+  float: left;
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.class4 {
+  width: 50%;
+  float: left;
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.class1 h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 180%;
+}
+
+.class1 h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.class1 span {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.class2 h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 170%;
+  font-weight: bold;
+}
+
+.class3 h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 170%;
+}
+
+input[type=copy] {
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+.class4 h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 170%;
+}
+
+.class4 h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 100%;
+}
+
+.topic_embed{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.topic_embed h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 180%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.topic_embed iframe{
+  padding-top: 10px;
+  width: 1024px;
+  height: 576px;
+  padding-bottom: 10px;
+}
+
+.meta_data{
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 100%;
+  display: inline-block;
+  float: left;
+  width: 1280px;
+  height: auto;
+}
+
+.meta_data p{
+  text-align: left;
+}
+
+.meta_data a{
+  color: #0086ff;
+  text-decoration: none;
+  display: inline;
+}
+
+.meta_data a:hover{
+  color: #000000;
+}
+
+/*Control grid index all child pages*/
+.ccchildpage{
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 100%;
+  display: inline-block;
+  text-align: center;
+  word-break: break-word;
+  width: 256px;
+  height: auto;
+}
+
+.ccchildpage img{
+  width: 236px;
+  height: 350px;
+  margin: auto;
+  /*position: relative;
+  bottom: 70px;*/
+}
+
+.ccchildpage h3{
+  width: 236px;
+  height: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.ccchildpage a{
+  color: #686868;
+}
+
+.ccchildpage a:hover{
+  color: #282828;
+}
+
+/*Chatbox*/
+.sidenav {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.open{
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  font-size:30px;
+  cursor:pointer;
+  top: 30px;
+  left: 20px;
+}
+
+.chat_bubble{
+  width: 40px;
+  height: 40px;
+}
+
+/*Footer CSS*/
+
+footer{
+  font-family: 'Open Sans', sans-serif;
+  color: #6b6b6b;
+  font-size: 90%;
+  display: inline;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+  border: 0;
+  position: static;
+}
+
+footer a{
+  font-family: 'Open Sans', sans-serif;
+  color: #6b6b6b;
+  font-size: 90%;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+  border: 0;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
