@@ -3,7 +3,6 @@
 **Demo** https://maiphamquanghuy.com
 
 Run with these plugins:
-
 ```Advanced Custom Fields
 
 CC Child Pages
@@ -16,4 +15,4 @@ pipDisqus
 
 Post Tags and Categories for Pages
 
-WordPress Importer```
+WordPress Importer
