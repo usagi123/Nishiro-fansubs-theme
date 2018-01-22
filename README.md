@@ -1,21 +1,19 @@
 # Nishrio-Fansub-Theme
 
-**Demo**
-
-https://maiphamquanghuy.com
+**Demo** https://maiphamquanghuy.com
 
 Run with these plugins:
 
-**Advanced Custom Fields**
+```Advanced Custom Fields
 
-**CC Child Pages**
+CC Child Pages
 
-**No Page Comment**
+No Page Comment
 
-**Page-list**
+Page-list
 
-**pipDisqus**
+pipDisqus
 
-**Post Tags and Categories for Pages**
+Post Tags and Categories for Pages
 
-**WordPress Importer**
+WordPress Importer```
