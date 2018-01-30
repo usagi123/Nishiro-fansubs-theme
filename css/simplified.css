@@ -1,0 +1,187 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.body{
+    background: url('https://i.imgur.com/kI9hlfR.png') no-repeat center center/cover fixed;
+}
+
+#wrapper{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title{
+    padding: 20px 0 20px 0;
+}
+
+.circle_orange{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    font-size:30px;
+    color:#fff;
+    line-height:50px;
+    text-align:center;
+    background:#ff882d;
+    display: inline-block;
+}
+
+.circle_blue{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    font-size:30px;
+    color:#fff;
+    line-height:50px;
+    text-align:center;
+    background:#82c4ff;
+    display: inline-block;
+}
+
+.romanji{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.padding-filler1{
+    padding-top: 20px;
+}
+
+.topic_image{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+  }
+
+#portrait{
+    width: 44%;
+    height: auto;
+}
+
+.description{
+    background-color: #ffffff;
+}
+
+.class1{
+    width: 40%;
+    float: left;
+    height: 400px;
+    text-align: center;
+    /* padding-top: 20px; */
+    background-color: #fff;
+}
+  
+.class2{
+    width: 60%;
+    float: left;
+    height: 400px;
+    text-align: center;
+    /* padding-top: 20px; */
+    background-color: #fff;
+}
+  
+.class3 {
+    width: 50%;
+    float: left;
+    height: auto;
+    text-align: center;
+}
+  
+.class4 {
+    width: 50%;
+    float: left;
+    height: auto;
+    text-align: center;
+}
+  
+.class1 h1{
+    font-family: 'Zilla Slab', serif;
+    color: #000000;
+    font-size: 180%;
+}
+  
+.class1 h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 100%;
+    font-weight: 400;
+}
+  
+.class1 span {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 120%;
+    font-weight: bold;
+}
+  
+.class2 h1{
+    font-family: 'Zilla Slab', serif;
+    color: #000000;
+    font-size: 170%;
+    font-weight: bold;
+}
+  
+.class3 h1{
+    font-family: 'Zilla Slab', serif;
+    color: #000000;
+    font-size: 170%;
+}
+
+.class3 a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #000000;    
+}
+
+.class4 a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #000000;    
+}
+  
+input[type=copy] {
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+  
+.class4 h1{
+    font-family: 'Zilla Slab', serif;
+    color: #000000;
+    font-size: 170%;
+}
+  
+.class4 h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 100%;
+}
+  
+.topic_embed{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+  
+.topic_embed h1{
+    font-family: 'Zilla Slab', serif;
+    font-size: 180%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.topic_embed iframe{
+    padding-top: 10px;
+    width: 1024px;
+    height: 576px;
+    padding-bottom: 10px;
+}
