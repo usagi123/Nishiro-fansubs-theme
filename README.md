@@ -1,7 +1,5 @@
 # Nishrio-Fansub-Theme
 
-**Demo** https://maiphamquanghuy.com
-
 Run with these plugins:
 ```
 Advanced Custom Fields
